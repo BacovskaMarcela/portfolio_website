@@ -14,13 +14,10 @@ with col2:
     Hi, I'm Marcela! I'm an amateur Python enthusiast and data analyst. I've completed a long-term course at Czechitas 
     called the Digital Academy Data, and I'm currently seeking job opportunities in these fields. 
     I'm ready to learn anything!
+    
+    Below you can find some of the apps I have built in Python. Feel free to contact me!
     """
-    st.info(content)
-
-content2 = """
-Below you can find some of the apps I have built in Python. Feel free to contact me!
-"""
-st.write(content2)
+    st.write(content)
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
